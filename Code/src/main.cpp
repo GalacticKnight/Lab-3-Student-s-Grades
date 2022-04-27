@@ -7,16 +7,13 @@
 
 using namespace std;
 
-#include "recordUtil.h"
-#include "utilFuncs.h"
 
 int main() {
     
        
     string done = "Yes";
 
-    cout << "Setting Up Records...";
-    recordUtil records;
+    cout << "Setting Up Records...";  
     cout << "Done" << endl;
     cout << endl;
     
