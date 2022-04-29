@@ -7,13 +7,15 @@
 
 using namespace std;
 
+#include "RecordingAlgorithm.h";
+
 
 int main() {
     
        
     string done = "Yes";
-
-    cout << "Setting Up Records...";  
+    RecordingAlgorithm records;
+    
     cout << "Done" << endl;
     cout << endl;
     
