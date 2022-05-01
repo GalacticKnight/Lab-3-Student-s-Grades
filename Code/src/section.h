@@ -18,8 +18,4 @@ struct section {
         this->instr_id = instr_id;
         this->term = term;
     }
-
-    void add_student(string emplid) {
-        students.push_back(emplid);
-    }
 };

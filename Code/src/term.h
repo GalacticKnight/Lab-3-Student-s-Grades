@@ -1,4 +1,3 @@
-#include <
 #include <string>
 #include <unordered_set>
 
@@ -12,6 +11,11 @@ struct term {
     term() {}
 
     term (string term_id, string course, bool is_spring) {
+        this->term_id = term_id;
+        this->is_spring = is_spring;
+        courses.insert(course);
+    }   
+    term (string term_id, string course, bool is_fall){
         this->term_id = term_id;
         this->is_spring = is_spring;
         courses.insert(course);

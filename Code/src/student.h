@@ -11,8 +11,12 @@ struct student {
         this->emplid = emplid;
         classes[course] = grade;
     }
-
+    void delete_course(string course, string grade) {
+        classes[course] = NULL;
+    }
     void add_course(string course, string grade) {
         classes[course] = grade;
     }
+    
+    
 };

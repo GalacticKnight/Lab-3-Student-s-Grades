@@ -8,7 +8,9 @@
 using namespace std;
 
 #include "RecordingAlgorithm.h";
-
+#include "student.h";
+#include "instructor.h";
+#include "term.h";
 
 int main() {
     
@@ -50,13 +52,6 @@ int main() {
         cin >> continuing;
     
     }
-
-    records.printPassPerInstructor(); 
-    records.printPassPerCourse();
-    records.printWithRatePerInstructor();
-    records.printWithRatePerCourse();
-    records.printPassRateFall();
-    records.printPassRateSpring();
 
 
     return 0;
