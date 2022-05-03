@@ -25,27 +25,27 @@ int main() {
     cout << "Say Yes or anything else."
     cin >> continuing;
     while(done == "Yes") {
-        entry newEntry; 
+        recording util; 
          
         cout << "Give me your EMPLID: ";
-        cin >> newEntry.emplid;  
+        cin >> util.emplid;  
 
         cout << "Give me your course number: ";
-        cin >> newEntry.courseno;  
+        cin >> util.courseno;  
 
         cout << "Give me your instructor's ID: ";
-        cin >> newEntry.instructorid;  
+        cin >> util.instructorid;  
 
         cout << "Give me your term ID: ";
-        cin >> newEntry.termid;  
+        cin >> util.termid;  
 
         cout << "give me your section ID: ";
-        cin >> newEntry.sectionid;  
+        cin >> util.sectionid;  
 
         cout << "Give me your grade: ";
-        cin >> newEntry.grade;  
+        cin >> util.grade;  
 
-        records.addEntry(newEntry);
+        records.addEntry(util);
 
         cout << "Would you like to update the information? ";
         cout << "Say Yes or anything else."
